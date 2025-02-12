@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Firs Tailwind project with programmig shikbo</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
 
-      <h1>Hello World</h1>
+<body class="bg-[#2B2D33]">
+
+  <!--=> This is the navigation bar => -->
+  <nav class=" bg-[#2B2D33] shadow-xl  ">
+    <!-- paren-div  -->
+    <div class="container mx-auto  ">
+      <!-- chile-div  -->
+      <div class="sm:flex justify-between py-3 items-center">
+        <!-- This div was logos div  -->
+        <div class="text-center mb-2">
+          <a class="text-white text-xl sm:text-2xl font-semibold" href=""><span class="text-orange-600">S</span>mart
+            Cod<span class="text-orange-600">ers</span></a>
+        </div>
+
+        <ul class="sm:flex  text-white text-center border-t sm:border-none">
+          <li class="mt-2 sm:mt-0"><a class=" p-3 text-orange-500" href="">Home</a></li>
+          <li><a class=" p-3 hover:text-orange-700" href="">Products</a></li>
+          <li><a class=" p-3 hover:text-orange-700" href="">Blog</a></li>
+          <li><a class=" p-3 hover:text-orange-700" href="">Portfolio</a></li>
+          <li><a class=" p-3 hover:text-orange-700" href="">Contacts</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- =>THis is the header section or hero area=> -->
+  <header class=" ">
+    <!-- parent div=>for header box -->
+    <div
+      class="border  container mx-auto border-indigo-600 border-t-0 text-white sm:flex justify-around items-center text-center h-[80vh] px-10 pt-10">
+      <!-- this div for text=> -->
+      <div class="  ">
+        <h1 class="text-sm sm:text-4xl mb-1 sm:mb-7 ">Smart Coders:Learn <br> Programming</h1>
+        <button class="bg-indigo-800 px-5 py-1 rounded-md text-sm sm:text-xl mb-2 shadow-xl"> Programming Shikbo <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-4 inline-block animate-ping ml-2 text-red-500">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+        </svg>
+        </button>
+      </div>
+      <!-- this div for image=> -->
+      <div class="border">
+        <img class="animate-pulse" src="iamge/hero-img.png" alt="">
+      </div>
+    </div>
+  </header>
 
 </body>
+
 </html>
